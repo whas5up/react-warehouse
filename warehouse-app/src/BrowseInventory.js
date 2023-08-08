@@ -1,15 +1,15 @@
 import './App.css';
-import NavBar from './components/NavBar.js';
 import InventoryListing from './components/InventoryListing.js';
+import NavBar from './components/NavBar.js';
 
-function App() {
+function BrowseInventory() {
   return (
     <div className="App">
+      <h1>Inventory Listing</h1>
       <NavBar />
-      <h1>Warehouse App</h1>
       <InventoryListing maxVisible={15} />
     </div>
   );
 }
 
-export default App;
+export default BrowseInventory;
